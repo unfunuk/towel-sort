@@ -1,7 +1,7 @@
 
 
 
-module.exports = function towelSort(matrix) {
+module.exports = function towelSort(matrix = undefined) {
   let k = 0;
   let array = [];
   for (let i = 0; i < matrix.length; i++) {
