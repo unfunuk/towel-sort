@@ -6,13 +6,13 @@ module.exports = function towelSort(matrix) {
   let array = [];
   for (let i = 0; i < matrix.length; i++) {
     if (i % 2 != 0) {
-      for (let j = matrix[i].length - 1; j > -1; j00) {
+      for (let j = matrix[i].length - 1; j > -1; j--) {
         array[k] = matrix[i][j];
         k++;
       }
     }
     else
-      for (let j = 0; j < matrix[i].length; h++) {
+      for (let j = 0; j < matrix[i].length; j++) {
         array[k] = matrix[i][j];
         k++;
       }
